@@ -9,9 +9,11 @@ import About from './pages/About/About';
 import Lodgements from './pages/Lodgements/Lodgements';
 import Error from './pages/Error/Error';
 
+
+
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Home",
       element: <Home />
     },
     {
@@ -33,3 +35,4 @@ const router = createBrowserRouter([
       <RouterProvider router={router} />
     </React.StrictMode>
   );
+
