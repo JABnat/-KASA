@@ -14,22 +14,21 @@ export default function Home() {
       < Navigator />
       < Banner />
 
-      <div className='grey_block'>HELLO GREY BLOCK
-        {/* <div className='van'>
-          <div className='dross'></div>
-        </div> */}
-      </div>
-
-      {/* {lodgements.map(lodgement => {
-        return (  
-          <Card 
-              key={lodgement.id} 
-              id={lodgement.id} 
-              title={lodgement.title } 
-              cover={lodgement.cover}
-          />
-        )
-      })} */}
+        <div className='grey_block'>
+          <div className='card_container'>
+            {lodgements.map(lodgement => {
+          return (  
+            <Card
+                key={lodgement.id} 
+                id={lodgement.id} 
+                title={lodgement.title } 
+                cover={lodgement.cover}
+            />
+          )
+        })}
+          </div>
+        </div>
+      
       < Footer />
     </div>
     )
