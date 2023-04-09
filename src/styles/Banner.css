@@ -1,50 +1,49 @@
 
 .banner-accueil {
-
-position: absolute;
-width: 1240px;
-height: 223px;
-left: 100px;
-top: 171px;
-
-background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/BannerAcceuil.png');
-background-position: center;
-background-size: cover;
-mix-blend-mode: darken;
-border-radius: 25px;
+    position: absolute;
+    width: 90%;
+    height: 223px;
+    top: 171px;
+    margin-left: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://jabnat-zany-train-5gx57r7gggfp469-3000.preview.app.github.dev/static/media/BannerAcceuil.e76961b….png);
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Chez vous, partout et ailleurs */
 .font-banner {
-position: absolute;
-left: 25.9%;
-right: 25.14%;
-top: 69.04%;
-bottom: 69.04%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 42px;
-line-height: 142.6%;
-/* or 68px */
-
-display: flex;
-align-items: flex-end;
-color: #FFFFFF;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
 .banner-apropos {
-position: absolute;
-width: 1240px;
-height: 223px;
-left: 100px;
-top: 171px;
-
-background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/AboutBanner.png');
-background-position: center;
-background-size: cover;
-mix-blend-mode: darken;
-border-radius: 25px;
-}
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/AboutBanner.png');
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    border-radius: 25px;
+    }
