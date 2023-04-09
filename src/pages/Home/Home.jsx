@@ -1,15 +1,25 @@
 import '../../App'
-import Banner from '../../components/Banner'
-import Card from '../../components/Card'
-import lodgements from '../../data/lodgement'
+import '../../styles/Home.css'
+import '../../styles/Navigator.css'
+// import Banner from '../../components/Banner'
+import Navigator from '../../components/Navigator'
+// import Card from '../../components/Card'
+// import lodgements from '../../data/lodgement'
 
 export default function Home() {
     return (
+      
     <div className='main'>
-      < Banner />
+      < Navigator />
+      {/* < Banner /> */}
 
+      <div className='luther'>
+        <div className='van'>
+          <div className='dross'></div>
+        </div>
+      </div>
 
-      {lodgements.map(lodgement => {
+      {/* {lodgements.map(lodgement => {
         return (  
           <Card 
               key={lodgement.id} 
@@ -18,7 +28,7 @@ export default function Home() {
               cover={lodgement.cover}
           />
         )
-      })}
+      })} */}
 
     </div>
     )
