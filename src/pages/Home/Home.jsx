@@ -5,6 +5,7 @@ import Banner from '../../components/Banner'
 import Navigator from '../../components/Navigator'
 // import Card from '../../components/Card'
 // import lodgements from '../../data/lodgement'
+import Footer from "../../components/Footer"
 
 export default function Home() {
     return (
@@ -29,7 +30,7 @@ export default function Home() {
           />
         )
       })} */}
-
+      < Footer />
     </div>
     )
 

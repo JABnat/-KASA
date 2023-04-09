@@ -5,7 +5,7 @@
     height: 223px;
     top: 171px;
     margin-left: 5%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://jabnat-zany-train-5gx57r7gggfp469-3000.preview.app.github.dev/static/media/BannerAcceuil.e76961b….png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/BannerAcceuil.png);
     background-position: center;
     background-size: cover;
     mix-blend-mode: darken;
