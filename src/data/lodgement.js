@@ -1,4 +1,4 @@
-const lodgements = 
+const lodgements =
 [
 	{
 		"id": "c67ab8a7",
@@ -618,3 +618,5 @@ const lodgements =
 		]
 	}
 ]
+
+export default lodgements

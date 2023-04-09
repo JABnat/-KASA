@@ -1,0 +1,47 @@
+/* Background */
+.cards-background {
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #F7F7F7;
+border-radius: 25px;
+}
+
+/* Rectangle 2 */
+.rectangle-2 {
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+border-radius: 10px;
+}
+
+/* Titre de la location */
+.location-title {
+
+position: absolute;
+left: 5.88%;
+right: 5.88%;
+top: 78.82%;
+bottom: 5.88%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+/* or 26px */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
