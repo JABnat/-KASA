@@ -4,6 +4,10 @@ body {
   width:100%;
 }
 
+.main {
+ width:100%
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -13,12 +17,13 @@ body {
   height:100%;
 }
 
-/* .luther {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  
+
+
+.grey_block {
   background: #F7F7F7;
   border-radius: 25px;
-  } */
+  margin: 2% 5%;
+  padding: 3%;
+  padding: ;
+  height: 500px;
+}

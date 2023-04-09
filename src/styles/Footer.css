@@ -1,13 +1,8 @@
 .footer_containter {
     background-color: black;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
+    display: block;
+    text-align: -webkit-center;
 }
 
 .logo_footer {
@@ -31,12 +26,7 @@
 }
 
 .text-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-end;
-    justify-content: center;
-    align-items: center;
     width: 380px;
     padding: 2%;
+    text-align: center;
 }

@@ -3,8 +3,8 @@ import '../../styles/Home.css'
 import '../../styles/Navigator.css'
 import Banner from '../../components/Banner'
 import Navigator from '../../components/Navigator'
-// import Card from '../../components/Card'
-// import lodgements from '../../data/lodgement'
+import Card from '../../components/Card'
+import lodgements from '../../data/lodgement'
 import Footer from "../../components/Footer"
 
 export default function Home() {
@@ -14,10 +14,10 @@ export default function Home() {
       < Navigator />
       < Banner />
 
-      <div className='luther'>
-        <div className='van'>
+      <div className='grey_block'>HELLO GREY BLOCK
+        {/* <div className='van'>
           <div className='dross'></div>
-        </div>
+        </div> */}
       </div>
 
       {/* {lodgements.map(lodgement => {
