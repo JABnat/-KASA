@@ -4,7 +4,7 @@ import '../../styles/Navigator.css'
 import Banner from '../../components/Banner'
 import Navigator from '../../components/Navigator'
 import Card from '../../components/Card'
-import lodgements from '../../data/lodgement'
+import lodgements from '../../data/lodgements'
 import Footer from "../../components/Footer"
 
 export default function Home() {
