@@ -1,7 +1,7 @@
 .collapse {
     width: 72%;
     top: 171px;
-    margin-left: 15%;
+    margin-left: 5%;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -30,7 +30,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 142.6%;
-
+    padding-left:5%;
     display: flex;
     align-items: center;
 
@@ -53,11 +53,12 @@
 }
 
 .dropdownTitleBox img {
-    height: 60%;
+    height: 50%;
     object-fit: cover;
     max-width: 100%;
     border-radius: 10px;
     align-self: center;
+    padding-right:5%
 }
 
 .collapseActive {
@@ -66,4 +67,12 @@
 
 .collapseInactive {
     display:none;
+}
+
+.container-collapse {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
