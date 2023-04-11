@@ -5,7 +5,6 @@ import { useState } from 'react'
 export default function Collapse({title, description}) {
     const [collapse, setCollapse] = useState(false);
     function handleClick(){
-        console.log('Clicked')
         if (collapse) {
             setCollapse(false)
         } else {

@@ -1,0 +1,33 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+.each-slide-effect-img {
+    height: 400px;
+}
+
+.slideshow {
+    display:block;
+}
+
+.react-slideshow-container {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
