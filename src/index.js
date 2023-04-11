@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <Lodgements />
       },
       {
-        path: "/error",
+        path: "*",
         element: <Error />
       },
   ]);
