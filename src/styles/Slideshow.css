@@ -15,6 +15,7 @@
 
 .each-slide-effect-img {
     height: 420px;
+    border-radius: 25px;
 }
 
 .slideshow {
@@ -29,4 +30,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.react-slideshow-wrapper-slide {
+    border-radius: 25px;
 }

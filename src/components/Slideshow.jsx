@@ -6,8 +6,6 @@ import 'react-slideshow-image/dist/styles.css'
 
 
     const lodgingPictures = (pictures) => {
-        console.log(pictures)
-        console.log(pictures["pictures"][0])
         return (
             < Slide autoplay={false} >
                 <div className="each-slide-effect">

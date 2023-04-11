@@ -4,11 +4,12 @@ h1 {
     font-weight: 500;
     font-size: 36px;
     line-height: 142.6%;
-    width:50%;
+    width:100%;
     display: flex;
     align-items: flex-end;
-    margin-left: 5%;
     color: #FF6060;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
@@ -17,14 +18,43 @@ h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 142.6%;
-    width:50%;
+    width:100%;
     display: flex;
     align-items: flex-end;
-    margin-left: 5%;
     color: #FF6060;
+    margin-top:0;
+    align-items: center;
 }
 
 .collapsable-container {
     display:flex;
     width:80%;
+}
+
+.container-title-host {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container-title-city {
+    display:flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.host-container {
+    display:flex;
+}
+
+.host-container img {
+    height: 55%;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 10px;
+    border-radius: 50%;
+    margin-top: 12%;
 }
