@@ -1,7 +1,11 @@
-export default function Error() {
+import Navigator from '../../components/Navigator'
+import Error from '../../components/Error'
+
+export default function ErrorPage() {
     return (
         <div>
-            <p>Testing Error Page</p>
+            < Navigator/>
+            < Error />
         </div>
     )
 };

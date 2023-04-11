@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 400px;
+    height: 420px;
   }
   
   .each-slide-effect span {
@@ -14,7 +14,7 @@
   }
 
 .each-slide-effect-img {
-    height: 400px;
+    height: 420px;
 }
 
 .slideshow {
@@ -24,7 +24,6 @@
 .react-slideshow-container {
     width: 90%;
     margin-left: 5%;
-    border-radius: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
