@@ -1,7 +1,14 @@
+import Navigator from '../../components/Navigator'
+// import LightBox from '../../components/LightBox'
+
 export default function Lodgements() {
     return (
         <div>
-            <p>Testing Lodgement Page</p>
+            < Navigator />
+            {/* < LightBox />
+            <div className=""></div>
+            < Collapse />
+            < Collapse /> */}
         </div>
     )
 };

@@ -37,7 +37,11 @@
 
 .acceuil-button {
     display: flex;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
 .apropos-button {
     display: flex;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }

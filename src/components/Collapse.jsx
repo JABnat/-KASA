@@ -1,14 +1,24 @@
 import '../styles/Collapse.css'
 import Vector_DOWN_ARROW from '../assets/images/Vector_DOWN_ARROW.svg'
+import { useState } from 'react'
 
 export default function Collapse({title, description}) {
+    const [collapse, setCollapse] = useState(false);
+    function handleClick(){
+        console.log('Clicked')
+        if (collapse) {
+            setCollapse(false)
+        } else {
+            setCollapse(true)
+        }
+    }
     return (
         <div className="collapse">
-            <button type="button" class="dropdownTitleBox">
+            <div type="button" className="dropdownTitleBox">
                 <div className= "dropdownTitleText">{title}</div>
-                <img className= "vectorArrow" src={Vector_DOWN_ARROW} alt="up arrow" />
-            </button>
-                <div class="dropdownText">
+                <img onClick={()=> handleClick()} src={Vector_DOWN_ARROW} alt="up arrow" />
+            </div>
+                <div className={(collapse ? "dropdownText collapseActive" : "dropdownText collapseInactive")}>
                 <p>{description}</p>
                 </div>
         </div>

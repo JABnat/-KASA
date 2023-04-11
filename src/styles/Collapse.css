@@ -48,12 +48,22 @@
     font-size: 24px;
     line-height: 142.6%;
     color: #FF6060;
+    padding: 0 18px;
+    overflow: hidden;
 }
 
-.vectorArrow {
+.dropdownTitleBox img {
     height: 60%;
     object-fit: cover;
     max-width: 100%;
     border-radius: 10px;
     align-self: center;
+}
+
+.collapseActive {
+    display:block;
+}
+
+.collapseInactive {
+    display:none;
 }
