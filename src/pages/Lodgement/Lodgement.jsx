@@ -1,7 +1,8 @@
 import Navigator from '../../components/Navigator'
 import Slideshow from '../../components/Slideshow'
 import Collapse from '../../components/Collapse'
-import HostRating from '../../components/HostRating'
+import Host from '../../components/Host'
+import StarRating from '../../components/StarRating'
 import {useParams} from 'react-router-dom';
 import lodgements from '../../data/lodgements';
 import Tag from '../../components/Tag'
@@ -11,7 +12,6 @@ export default function Lodgements() {
     const urlParam  = useParams()
     const lodgementId = urlParam['*']
     const currentLodgement = lodgements.filter(lodgement => lodgement.id === lodgementId)['0']
-    console.log(currentLodgement.host.picture)
 
     return (
         <div>
@@ -27,11 +27,14 @@ export default function Lodgements() {
                 <h1>{currentLodgement['title']}</h1>
                 <h2>{currentLodgement['location']}</h2>
             </div>
-            <HostRating 
+        <div className="hostRating-container">
+            <Host 
                 key={currentLodgement['id']}
                 name={currentLodgement['host']['name']}
                 picture={currentLodgement['host']['picture']}
             />
+            <StarRating score={currentLodgement['rating']} />
+        </div>
         </div>
         <Tag
         key={currentLodgement['id']}

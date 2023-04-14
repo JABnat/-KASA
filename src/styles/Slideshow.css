@@ -1,7 +1,8 @@
 .each-slide-effect > div {
+    height: 420px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background-size: cover;
     height: 420px;
   }
@@ -16,6 +17,12 @@
 .each-slide-effect-img {
     height: 420px;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .slideshow {
