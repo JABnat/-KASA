@@ -36,10 +36,15 @@ export default function Lodgements() {
         </div>
         </div>
             <div className="tags-ratings-container">
-                <Tag 
+            <Tag
                 key={currentLodgement['id']}
                 tags={currentLodgement['tags']}
-                />
+            />
+                {/* return (  
+                    <Tag 
+                    key={Lodgements['id']}
+                    tags={Lodgements['tags']}
+                    /> */}
                 <StarRating score={currentLodgement['rating']} />
             </div>
             <div className='collapsable-container'>

@@ -1,15 +1,10 @@
 import '../styles/Tag.css'
+import '../data/lodgements'
 
-
-export default function Tags({tags}) {
-    return(
-        <div className='tags-container'>
-        <div className="tag-container">
-            <div>{tags[0]}</div>
-        </div>  
-        <div className="tag-container">
-            <div>{tags[1]}</div>
-        </div>
-        </div>
+export default function Tags({id, tags}) {
+    return (
+        <div className="tags-container -container">
+			<div className="tag-container ">{tags}</div>	
+		</div>
     )
 }
