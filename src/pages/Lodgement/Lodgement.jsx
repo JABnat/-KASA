@@ -13,13 +13,13 @@ export default function Lodgements() {
     const lodgementId = urlParam['*']
     const currentLodgement = lodgements.filter(lodgement => lodgement.id === lodgementId)['0']
 
+
     return (
         <div>
             < Navigator />
             <div className='slideshow'>
             < Slideshow 
-                key={currentLodgement['id']}
-                pictures={currentLodgement['pictures']}
+                slides={currentLodgement['pictures']}
             />
             </div>
         <div className='container-title-host'>
@@ -33,13 +33,15 @@ export default function Lodgements() {
                 name={currentLodgement['host']['name']}
                 picture={currentLodgement['host']['picture']}
             />
-            <StarRating score={currentLodgement['rating']} />
         </div>
         </div>
-        <Tag
-        key={currentLodgement['id']}
-        tags={currentLodgement['tags']}
-        />
+            <div className="tags-ratings-container">
+                <Tag 
+                key={currentLodgement['id']}
+                tags={currentLodgement['tags']}
+                />
+                <StarRating score={currentLodgement['rating']} />
+            </div>
             <div className='collapsable-container'>
                 < Collapse 
                     title= "Description"
