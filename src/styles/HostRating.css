@@ -13,6 +13,7 @@ flex-direction: column;
 display: flex;
 align-self: center;
 color: #FF6060;
+text-align: right;
 }
 
 .starRating {
@@ -38,6 +39,7 @@ color: #FF6060;
     justify-content: space-between;
     align-items: center;
     margin-right: 75px;
+    align-items: self-start;
 }
 
 .host-container img {
