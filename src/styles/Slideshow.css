@@ -1,21 +1,37 @@
-/* .slideshow {
-    position: relative;
-    height: 400px;
-    overflow: hidden;
-} */
-
 .slideshow-container{
-       display: flex;
-       align-items: center;
-       justify-content: flex-end;
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-       background-position: center;
-       position: relative;
-  }
+    position: relative;
+    text-align: center;
+}
   
-  span {
+.buttons-container {
+    position: absolute;
+    bottom: 39%;
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.current-picture img {
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.current-picture {
+    object-fit: cover;
+    height: 415px;
+    position: relative;
+}
+
+.hidden-pictures {
+    object-fit: cover;
+    position:absolute;
+}
+
+span {
     position: absolute;
     left: 48.95%;
     right: 49.11%;
@@ -31,59 +47,20 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    background-color: red;
     color: #FFFFFF;
-  }
+}
 
 .right-arrow {
     color: #FFFFFF;
-    background-color: red;
-  }
+    height: 79.2px;
+    width: 46.68px;
+    display: flex;
+}
 
 .left-arrow {
     color: #FFFFFF;
-    background-color: red;
-  }
-
-  .current-picture img {
-    height: 415px;
-    width: 1240px;
-  }
-  /* .each-slide-effect span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
-  }
-
-.each-slide-effect-img {
-    height: 420px;
-    border-radius: 25px;
+    height: 79.2px;
+    width: 46.68px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-size: cover;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
-.slideshow {
-    display:block;
-}
-
-.react-slideshow-container {
-    width: 90%;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.react-slideshow-wrapper-slide {
-    border-radius: 25px;
-} */

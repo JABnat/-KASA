@@ -11,7 +11,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin:3%;
 
     color: #FF6060;
 }
@@ -21,10 +20,9 @@
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    justify-content: center;
     display: flex;
     align-items: flex-end;
-
+    align-items: center;
     color: #FF6060;
 }
 
@@ -33,10 +31,9 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    justify-content: center;
     display: flex;
     align-items: flex-end;
     text-decoration-line: underline;
-    
+    justify-content: center;
     color: #FF6060;
 }

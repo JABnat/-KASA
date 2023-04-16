@@ -16,7 +16,6 @@ export default function Slideshow({ slides }) {
 
 	return (
 		<section className="slideshow-container">
-            <div className="slideshow">
 			{slides.map((slide, index) => (
 				<div
 					key={index} // mise en place du slider avec affichage conditionnel et opacity=1 quand le slide en cours vaut l'index
@@ -34,7 +33,7 @@ export default function Slideshow({ slides }) {
 					)}
 				</div>
 			))}
-            </div>
+			<div className='buttons-container'>
               <div className="left-arrow">
 			{length > 1 && (
 				<img
@@ -55,6 +54,7 @@ export default function Slideshow({ slides }) {
 				/>
 			)}
             </div>
+			</div>
 		</section>
 	);
 }
