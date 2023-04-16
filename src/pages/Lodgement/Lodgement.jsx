@@ -12,9 +12,10 @@ export default function Lodgements() {
     const urlParam  = useParams()
     const lodgementId = urlParam['*']
     const currentLodgement = lodgements.filter(lodgement => lodgement.id === lodgementId)['0']
-
+    // console.log(currentLodgement['equipments'])
 
     return (
+       
         <div>
             < Navigator />
             <div className='slideshow'>
@@ -49,7 +50,7 @@ export default function Lodgements() {
                         />
                 < Collapse 
                     title= "Equipments"
-                    description= {currentLodgement['equipments']}
+                    equipments= {currentLodgement['equipments']}
                         /> 
             </div>
         </div>
