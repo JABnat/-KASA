@@ -27,7 +27,9 @@ export default function Collapse({title, description, equipments}) {
                     <p>{equipment}</p>
                 </div>
             ))}
-
+                <div className={(collapse ? "dropdownText-desc collapseActive-desc" : "dropdownText-desc collapseInactive-desc")}>
+                    <p>{description}</p>
+                </div>
         </div>
     )
 }

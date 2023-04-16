@@ -49,3 +49,7 @@ h2 {
 .host-container {
     display:flex;
 }
+
+.spaceBetween {
+    height:100px;
+}

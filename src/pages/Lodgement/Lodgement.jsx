@@ -6,6 +6,7 @@ import StarRating from '../../components/StarRating'
 import {useParams} from 'react-router-dom';
 import lodgements from '../../data/lodgements';
 import Tag from '../../components/Tag'
+import Footer from '../../components/Footer'
 import '../../styles/Lodgement.css'
 
 export default function Lodgements() {
@@ -53,6 +54,8 @@ export default function Lodgements() {
                     equipments= {currentLodgement['equipments']}
                         /> 
             </div>
+            <div className='spaceBetween'></div>
+            <Footer/>
         </div>
     )
     
