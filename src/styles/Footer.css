@@ -5,28 +5,26 @@
     text-align: -webkit-center;
 }
 
-.logo_footer {
+.logo-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    border-radius: 0;
 }
 .ARR {
     font-family: Montserrat;
-    font-style: Medium;
     font-size: 24px;
     line-height: 34px;
-    line-break: 143%;
     align-items: Center;
     vertical-align: Bottom;
-    Fill: Solid;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .text-container {
     width: 380px;
     padding: 2%;
-    text-align: center;
 }

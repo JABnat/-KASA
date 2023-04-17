@@ -2,13 +2,11 @@
     width: 72%;
     top: 171px;
     margin-left: 5%;
-    background-position: center;
-    background-size: cover;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     margin-top: 3%;
+    justify-content: flex-start;
 }
 
 .dropdownTitleBox {
@@ -41,16 +39,15 @@
 .dropdownText {
     background: #F7F7F7;
     border-radius: 5px;
-    width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 142.6%;
     color: #FF6060;
-    padding: 0 18px;
+    width:100%;
     overflow: hidden;
-    
+    padding: 15px 0;
 }
 
 .dropdownTitleBox img {
@@ -89,12 +86,12 @@
     text-align-last: left;
     margin-bottom: 0px;
     margin-top: 0;
+    padding-left:30px;
 }
 
 .collapseActive-desc {
     background: #F7F7F7;
     border-radius: 5px;
-    width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;

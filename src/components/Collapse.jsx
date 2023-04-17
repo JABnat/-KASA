@@ -4,7 +4,7 @@ import { useState } from 'react'
 import '../data/lodgements'
 
 export default function Collapse({title, description, equipments}) {
-    console.log(equipments)
+    // console.log(equipments)
     const [collapse, setCollapse] = useState(false);
 
     function handleClick(){
@@ -14,22 +14,34 @@ export default function Collapse({title, description, equipments}) {
             setCollapse(true)
         }
     }
+    if (equipments) {
 
-    return (
-        <div className="collapse">
-            <div type="button" className="dropdownTitleBox">
-                <div className= "dropdownTitleText">{title}</div>
-                <img onClick={()=> handleClick()} src={Vector_DOWN_ARROW} alt="up arrow" />
-            </div>
-
-            {equipments?.map((equipment) => ( 
-                <div className={(collapse ? "dropdownText collapseActive" : "dropdownText collapseInactive")}>
-                    <p>{equipment}</p>
+        return (
+            <div className="collapse">
+                <div type="button" className="dropdownTitleBox">
+                    <div className= "dropdownTitleText">{title}</div>
+                    <img onClick={()=> handleClick()} src={Vector_DOWN_ARROW} alt="up arrow" />
                 </div>
-            ))}
+                
+                <div className={(collapse ? "dropdownText collapseActive" : "dropdownText collapseInactive")}>
+                    {equipments?.map((equipment) => (
+                            <p>{equipment}</p>
+                    ))}
+                </div>
+            </div>
+        )
+    } else {
+        return (
+            <div className="collapse">
+                <div type="button" className="dropdownTitleBox">
+                    <div className= "dropdownTitleText">{title}</div>
+                    <img onClick={()=> handleClick()} src={Vector_DOWN_ARROW} alt="up arrow" />
+                </div>
                 <div className={(collapse ? "dropdownText-desc collapseActive-desc" : "dropdownText-desc collapseInactive-desc")}>
                     <p>{description}</p>
                 </div>
-        </div>
-    )
+            </div>
+        )
+    }
+
 }
